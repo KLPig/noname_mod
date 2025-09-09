@@ -79,6 +79,7 @@
 		"在线更新", //游戏内在线更新方式修改了，不再依赖于在线更新扩展了
 	];
 
+	/*
 	// 检查是否是Safari浏览器
 	// 通过检查用户代理字符串是否包含 "safari" 且不包含 "chrome"，可以初步判断是不是Safari
 	if (userAgentLowerCase.includes("safari") && !userAgentLowerCase.includes("chrome")) {
@@ -96,6 +97,7 @@
 			return;
 		}
 	}
+		*/
 	// Safari由于系统原因，管不了，先默哀几秒
 
 	// 处理Node环境下的http情况
